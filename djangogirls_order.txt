@@ -1,0 +1,16 @@
+■仮想環境の起動
+C:\djangogirls\myvenv\Scripts\activate
+
+■Webサーバ起動
+cd C:\djangogirls
+python manage.py runserver
+
+■コンテンツ更新
+cd C:\djangogirls
+python manage.py makemigrations blog
+
+■DB追加
+cd C:\djangogirls
+python manage.py migrate blog
+
+
